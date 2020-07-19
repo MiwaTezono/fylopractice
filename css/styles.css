@@ -1,0 +1,66 @@
+@charset "UTF-8";
+body{
+  margin: 0;
+  font-size: 14px;
+  color: hsl(243, 100%, 93%);
+  font-family: 'Raleway', sans-serif;
+}
+
+#main{
+  background-color: hsl(229, 57%, 11%);
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.container{
+  width: 70%;
+  margin: 0 auto;
+  padding: 5% 20%;
+}
+
+.main-infomations{
+  display: flex;
+}
+
+.infomation{
+  background-color: hsl(228, 56%, 26%);
+  border-radius: 7px;
+  padding: 2% 5%;
+}
+
+/* First-Infomation */
+.first-info{
+  border-top-right-radius: 70px;
+  width: 35%;
+  margin-right: 1.5rem;
+}
+.icon{
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 7px;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.second-info{
+  width: 60%;
+}
+
+.em{
+  font-weight: 700;
+}
+.balloon{
+  background-color: white;
+  border-radius: 7px;
+  width: 25%;
+  font-size: 0.7rem;
+  padding: 2%;
+}
+.value{
+  color: hsl(229, 57%, 11%);
+  font-size: 2.0rem;
+  margin-right: 10px;
+}
+.mesure{
+  display: flex;
+  justify-content: space-between;
+}
